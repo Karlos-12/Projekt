@@ -1,0 +1,84 @@
+body
+{
+    background-color: black;
+    background-image: url("Images/background.jpg");
+    background-repeat: no-repeat;
+    background-position: 100% 0%;
+    margin: 0px;
+}
+
+#head
+{
+    height: 550px;
+    width: 100%;
+    margin: 0px;
+    margin-bottom: 350px;
+    display: flex;
+    align-items: center;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;500&display=swap');
+#head h1
+{
+    color: white;
+    font-family: 'Poppins', sans-serif;;
+    font-weight: 400;
+    font-size: 64px;
+    margin: auto;
+    background-color: rgba(25, 25, 25, 0.75);
+}
+
+#bottom
+{
+    width: 100%;
+    min-height: 450px;
+    height: auto;
+    margin-bottom: 0px;
+    background-color: rgba(25, 25, 25, 0.85);
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.shipbox
+{
+    width: 400px;
+    height: 550px;
+    margin: 15px;
+    background-color: rgba(65, 65, 65, 0.2);
+    box-shadow: 5px 5px 0 0 rgba(0, 0, 0, 0.1);
+}
+
+.shipbox:active
+{
+    transform: scale(1.05);
+}
+
+.shipbox h2
+{
+    height: 30px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    padding-left: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 0px;
+}
+
+.shipbox h2:hover
+{
+    background-color: rgba(65, 65, 65, 0.2);
+}
+
+.shipbox img
+{
+    width: 100%;
+    height: 500px;
+    margin: 0px;
+    object-fit: contain;  
+}
+
+.shipbox img:hover
+{
+    transform: scale(0.95);
+}
+
