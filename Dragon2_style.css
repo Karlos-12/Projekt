@@ -1,0 +1,43 @@
+body
+{
+    background-color: black;
+    background-image: url(Images/bckg.jpg);
+    background-size: 50%;
+    margin: 0px;
+}
+
+#menu
+{
+    height: 70px;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    display: flex;
+    background-color: rgba(25, 25, 25, 0.75);
+}
+
+#logo
+{
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+    vertical-align: middle;
+    align-self: flex-start;
+}
+
+#logo:hover
+{
+    transition: linear 0.1s;
+    transform: rotate(45deg);
+}
+
+#logo:active
+{
+    transition: linear 0.15s;
+    transform: rotate(90deg);
+}
+
+#main
+{
+    height: 2500px;
+}
