@@ -21,7 +21,7 @@ body
 #head h1
 {
     color: white;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins';
     font-weight: 400;
     font-size: 64px;
     margin: auto;
