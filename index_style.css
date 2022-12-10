@@ -9,7 +9,7 @@ body
 
 #head
 {
-    height: 50vh;
+    height: 44vh;
     width: 100%;
     margin: 0px;
     margin-bottom: 43vh;
@@ -63,6 +63,8 @@ body
     padding-top: 10px;
     padding-bottom: 10px;
     margin: 0px;
+    position: sticky;
+    top: 0;
 }
 
 .shipbox h2:hover
@@ -103,7 +105,8 @@ body
 
 #homebuton
 {
-    position: absolute;
+    position: sticky;
+    top: 45px;
     height: 65px;
     width: 65px;
     margin: 10px;
@@ -130,4 +133,51 @@ body
 a
 {
     text-decoration: none;
+}
+
+#artl
+{
+    margin: 50px;
+    margin-top: 75px;
+    padding: 15px;
+    padding-left: 30px;
+    background-color: rgba(25, 25, 25, 0.75);
+    font-family: 'Poppins', sans-serif;;
+}
+
+#artl div p
+{
+    color: white;
+    display: inline-block;
+    margin-top: 35px;
+    max-width: 60%;
+}
+
+#artl div
+{
+    display: flex;
+    flex-wrap: wrap;
+    grid-template-columns: 60% 40%;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+#artl h3
+{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    font-size: 40px;
+    columns: 1;
+}
+
+#artl div img
+{
+    display: inline-block;
+    height: auto;
+    max-height: 300px;
+    width: 40%;
+    min-width: 250px;
+    object-fit: cover;
+    columns: 3;
 }
