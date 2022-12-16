@@ -1,0 +1,91 @@
+body
+{
+    background-color: black;
+    background-image: url(Images/bckg.jpg);
+    background-size: 50%;
+    margin: 0px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;500&display=swap');
+#menu
+{
+    height: 70px;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#menu a
+{
+    text-decoration: none;
+}
+
+.menuitem
+{
+    width: 18vw;
+    height: 100%;
+    margin-left: 5px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    text-align: center;
+    background-color: rgba(25, 25, 25, 0.75);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.menuitem:hover
+{
+    background-color: rgba(65, 65, 65, 0.25);
+}
+
+#logo
+{
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+    vertical-align: middle;
+    align-self: flex-start;
+}
+
+#logo:hover
+{
+    transition: linear 0.1s;
+    transform: rotate(45deg);
+}
+
+#logo:active
+{
+    transition: linear 0.15s;
+    transform: rotate(90deg);
+}
+
+#main
+{
+    margin: auto;
+    margin-top: 250px;
+    margin-bottom: 25px;
+    width: 90vw;
+    max-width: 90vw;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.galerycell
+{
+    min-width: 250px;
+    width: auto;
+    height: 250px;
+    background-color: rgba(65, 65, 65, 0.25);
+}
+
+.galerycell img
+{
+    width: auto;
+    height: 100%;
+}
+
+
