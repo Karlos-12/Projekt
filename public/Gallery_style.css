@@ -71,15 +71,30 @@ body
     max-width: 90vw;
     height: auto;
     display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
     justify-content: space-around;
 }
 
 .galerycell
 {
-    min-width: 250px;
+    min-width: 350px;
     width: auto;
-    height: 250px;
+    margin: 15px;
+    height: 350px;
     background-color: rgba(65, 65, 65, 0.25);
+}
+
+.galerycell:hover
+{
+    transform: scale(1.1);
+}
+
+.galerycell:active
+{
+    transform: scale(2);
+    position: fixed;
+    background-color: rgb(25, 25, 25);
 }
 
 .galerycell img
