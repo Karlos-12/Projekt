@@ -103,4 +103,20 @@ body
     height: 100%;
 }
 
+#footer
+{
+    height: 90px;
+    width: 100%;
+    margin-top: 50px;
+    background-color: rgba(25, 25, 25, 0.75);
+    display: flex;
+    justify-content: center;
+}
 
+#footer a
+{
+    vertical-align: middle;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    margin: auto;
+}
